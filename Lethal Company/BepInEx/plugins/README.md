@@ -1,22 +1,25 @@
-# Scaling Start Credits
-After starting a new save and the host pulls the lever to start the game, this mod gives the party additional credits per person above a pre-configured threshold. By default, this mod gives 15 credits per extra player above 4 players.
+YoutubeBoombox allows you to play any youtube video you want directly from in game.
 
-For example, in a lobby of 6 players, 30 extra credits are given to the party once the host pulls the lever to start the game. That's 2 players above the 4 player threshold, so 2 lumps of 15 credits are added.
+As long as the host has the mod, the song will sync to everyone with the mod. Players without the mod will not hear anything.
 
-Only the host needs this installed. Will not affect games in which you are not host. Compatible with V45 and all other mods.
+This plugin will download ffmpeg and ytdl for you.
 
-## Configuration
-The threshold and amount given per extra person are configurable from the BepInEx/config/sunnobunno.scalingstartcredits.cfg file. Make sure to run the game with the mod installed at least once to generate this config. Only edit the config when the game is not running.
+The audio is synced, but everyone has to download it, and it won't start until everyone has it downloaded.
 
-## r2modman Installation
-1. Select pack from r2modman and install
+How to use:
+1. Obtain boombox
+2. Use your configured hotkey to open the boombox menu (B by default)
+3. Paste URL
+4. Click play
+5. Wait a few seconds for everyone to download
+6. Profit.
 
-## Thunderstore App Installation
-- NOT TESTED. Install at own risk
-
-## Manual Installation
-1. Install BepInEx
-2. Extract ScalingStartCredits.dll into the BepInEx/plugins folder
-
-## Changes
-- 1.0.1: Updated readme.
+Features:
+- Play music from youtube and sync to all clients as long as everyone has the mod
+- Client side boombox volume control
+  - Type `/bbv number` to change the volume of the closest boombox on your client within 15m
+    - If you are holding a boombox, the command will always target that one
+    - Example: `/bbv 50` is half as loud
+- Supports basic `youtube.com/watch` links and shortened `youtu.be` links
+- Supports playlist links like `youtube.com/playlist?list=LIST_ID` ensure there's no `v=` in there, otherwise it'll play just the single video
+- Retains downloads until you restart the game, meaning playing the same songs in the same session only needs to download once, making repeats faster
