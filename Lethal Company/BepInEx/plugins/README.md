@@ -1,25 +1,12 @@
-YoutubeBoombox allows you to play any youtube video you want directly from in game.
-
-As long as the host has the mod, the song will sync to everyone with the mod. Players without the mod will not hear anything.
-
-This plugin will download ffmpeg and ytdl for you.
-
-The audio is synced, but everyone has to download it, and it won't start until everyone has it downloaded.
-
-How to use:
-1. Obtain boombox
-2. Use your configured hotkey to open the boombox menu (B by default)
-3. Paste URL
-4. Click play
-5. Wait a few seconds for everyone to download
-6. Profit.
-
-Features:
-- Play music from youtube and sync to all clients as long as everyone has the mod
-- Client side boombox volume control
-  - Type `/bbv number` to change the volume of the closest boombox on your client within 15m
-    - If you are holding a boombox, the command will always target that one
-    - Example: `/bbv 50` is half as loud
-- Supports basic `youtube.com/watch` links and shortened `youtu.be` links
-- Supports playlist links like `youtube.com/playlist?list=LIST_ID` ensure there's no `v=` in there, otherwise it'll play just the single video
-- Retains downloads until you restart the game, meaning playing the same songs in the same session only needs to download once, making repeats faster
+# ReservedFlashlightSlot
+<strong>Requires: <a href="https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/">ReservedItemSlotCore</a></strong><br>
+This mod gives you a free, dedicated item slot for flashlights. Both flashlight items, and <i>only</i> flashlights can fill this slot.<br>
+These item slots are aligned on the right side of the screen, and stack vertically with my other ReservedItemSlot mods, such as the ReservedWalkieSlot mod.<br>
+<br>
+You cannot switch to these slots manually by scrolling. Instead, the method for swapping to these items is to hold Alt, and scrolling up and down to switch between them.<br>
+This way, you can swap to these items to drop them, as well as other actions, such as charging, storing, etc.<br>
+<br>
+You can activate the flashlight anytime by pressing F, and with any item in your hands.<br>
+This hotkey can be changed in the config.<br>
+<br>
+The flashlight sits nicely on your shoulder when not in your hand. (patch 1.3.0)
